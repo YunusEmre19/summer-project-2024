@@ -1,0 +1,14 @@
+[+] pick a standard for styling
+
+complete these mini projects (with styling):
+  [] password creation screen with validation (password length, capital characters etc.)
+  [+] stopwatch
+  [+] timer (pomodoro)
+  [] article card
+  [] calculator
+
+future long-term project ideas:
+  [] youtube video downloader using yt-dl package (?)
+  [] mini mobile app project using React Native (todo list, timer etc.)
+  [] learn docker (?)
+  [] pixel art creator (?) (with save feature ?)
