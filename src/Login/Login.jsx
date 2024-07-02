@@ -10,7 +10,7 @@ function Login(){
 
   function handleClick(){
     if(document.getElementById("password").value == password){
-      setResult( <img src="src\assets\walter-white-falling.gif" height={200} width={200}/>);
+      setResult( <img src="https://media1.tenor.com/m/nicIRWJkKIwAAAAC/walter-white-walter.gif" height={200} width={200}/>);
     } else{
       setResult(<p>Wrong Password</p>);
     }
