@@ -1,7 +1,7 @@
-import Login from "./Login/Login"
 import ToDo from "./ToDo/ToDo"
 import Timer from "./Timer/Timer"
 import Stopwatch from "./Stopwatch/Stopwatch"
+import AccountSystem from "./AccountSystem/AccountSystem"
 function App() {
   
 
@@ -9,8 +9,8 @@ function App() {
     <body className="main-grid">
       <h1>Mini Projects</h1>
       <div className="basic-grid">
+        <AccountSystem/>
         <Timer/>
-        <Login/>
         <ToDo/>
         <Stopwatch/>
       </div>
