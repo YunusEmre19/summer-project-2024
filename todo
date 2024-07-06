@@ -4,6 +4,7 @@ complete these mini projects (with styling):
   [] article card
   [+] stopwatch
   [+] timer (pomodoro)
+  [+] account creation and login components
   [] password creation screen with validation (password length, capital characters etc.)
   [] calculator
   [] wordle clone
