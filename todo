@@ -5,12 +5,13 @@ complete these mini projects (with styling):
   [+] stopwatch
   [+] timer (pomodoro)
   [+] account creation and login components
-  [] password creation screen with validation (password length, capital characters etc.)
   [] calculator
   [] wordle clone
+  [] password creation screen with validation (password length, capital characters etc.)
 
 future long-term project ideas:
-  [] youtube video downloader using yt-dl package (?)
+  [] learn node.js
+    [] youtube video downloader using yt-dl package (?)
   [] multi page application using next.js
   [] learn docker (?)
   [] pixel art creator (?) (with save feature ?)
