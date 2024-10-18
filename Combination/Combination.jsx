@@ -37,11 +37,11 @@ function Combination(){
       </label>
       <label>
         <input type="radio" value="op2" checked={selectedA==="op2"} onChange={handleOptionA} />
-        Turle
+        Grass
       </label>
       <label>
         <input type="radio" value="op3" checked={selectedA==="op3"} onChange={handleOptionA} />
-        Grass
+        Turle
       </label>
     </div>
     <div>
