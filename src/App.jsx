@@ -15,11 +15,10 @@ function App() {
       <div className="basic-grid">
         <AccountSystem/>
         <Timer/>
-        <ToDo/>
         <Stopwatch/>
+        <ToDo/>
         <Combination/>
         <RandomPokemon/>
-        <Fact/>
         <Bwaa/>
       </div>
       <footer>yuyuyunu</footer>

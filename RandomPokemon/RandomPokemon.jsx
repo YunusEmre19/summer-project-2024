@@ -1,9 +1,9 @@
 import {useState} from "react"
 
 function RandomPokemon(){
-  const [pokeLink, setPokeLink] = useState(Math.ceil(Math.random()*155));
+  const [pokeLink, setPokeLink] = useState(Math.ceil(Math.random()*151));
   function handleClick(){
-    return setPokeLink(Math.ceil(Math.random()*152))
+    return setPokeLink(Math.ceil(Math.random()*151))
   }
   function formatLink(num){
     if (num == 152) return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_nhu67oxSGwKB_J83h21EI83iqC_nyAYljA&s"
