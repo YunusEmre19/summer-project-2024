@@ -2,10 +2,10 @@ import ToDo from "./ToDo/ToDo"
 import Timer from "./Timer/Timer"
 import Stopwatch from "./Stopwatch/Stopwatch"
 import AccountSystem from "./AccountSystem/AccountSystem"
-import Combination from "../Combination/Combination"
-import RandomPokemon from "../RandomPokemon/RandomPokemon"
-import Fact from "../Fact/Fact"
-import Bwaa from "../bwaa"
+import Combination from "./Combination/Combination"
+import RandomPokemon from "./RandomPokemon/RandomPokemon"
+import Bwaa from "./bwaa"
+import RPG from "./RPG/RPG"
 function App() {
   
 
@@ -20,6 +20,7 @@ function App() {
         <Combination/>
         <RandomPokemon/>
         <Bwaa/>
+        <RPG/>
       </div>
       <footer>yuyuyunu</footer>
     </body>

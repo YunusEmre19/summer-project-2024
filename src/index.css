@@ -25,8 +25,9 @@
   overflow: scroll;
 }
 
-.inner-box{
-  
+.text{
+  margin: 0.5em;
+  font-size: 1.1em;
 }
 
 footer{
