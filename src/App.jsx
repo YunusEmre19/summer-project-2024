@@ -6,9 +6,8 @@ import Combination from "./Combination/Combination"
 import RandomPokemon from "./RandomPokemon/RandomPokemon"
 import Bwaa from "./bwaa"
 import RPG from "./RPG/RPG"
+import Calculator from "./Calculator/Calculator"
 function App() {
-  
-
   return (
     <body className="main-grid">
       <h1>Mini Projects</h1>
@@ -19,8 +18,7 @@ function App() {
         <ToDo/>
         <Combination/>
         <RandomPokemon/>
-        <Bwaa/>
-        <RPG/>
+        <Calculator/>
       </div>
       <footer>yuyuyunu</footer>
     </body>
