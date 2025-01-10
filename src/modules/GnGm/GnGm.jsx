@@ -6,9 +6,8 @@ function GnGm(){
   function saturation(time){
     return 100;
   }
-  function hue(time){
-    const hour = time/1000/60/60;
-    return hour*360/24;
+  function hue(time){;
+    return time*360/24;
   }
   function light(time){
     return Math.max(0,50-(15-time/1000/60/60)**2);
@@ -19,12 +18,12 @@ function GnGm(){
   }, []);
   function gradient(){
     const [hue1,sat1,vib1] = [hue(time),50,50];
-    const [hue2,sat2,vib2] = [hue(time),70,70];
+    const [hue2,sat2,vib2] = [hue(time)-30,70,70];
     return `linear-gradient(50deg, hsl(${hue1},${sat1}%,${vib1}%), hsl(${hue2},${sat2}%,${vib2}%))`
 
   }
   return (<div className="box" style={{background:gradient()}}>
-    <h1>{time<10?"GM":time>22?"GN":"MOGAF"}</h1>
+    <h1>{time<10 && time>4?"GM":time>22?"GN":"MOGAF"}</h1>
     <img style={{border: "solid"}} src="https://media.tenor.com/EhdoUo7q2tUAAAAM/oshi-no-ko-yoasobi-idol.gif" alt="" />
   </div>);
 }
